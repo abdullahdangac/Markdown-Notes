@@ -1,8 +1,12 @@
-# Markdown-Notes
+# Markdown Notes
 
 [Header](#header)  
-[Font Style](#font-style)
-[Code](#code)
+[Font Style](#font-style)  
+[Code](#code)  
+[List](#list)  
+[Quote](#quote)  
+[Link](#link)  
+
 
 # HEADER
 ```
@@ -114,7 +118,7 @@ Code Block
 
 <br />
 
-### Images as link
+### Images as Link
 ```
 [![Image Alt Text](image-url.jpg)](hyperlink-url)
 ```
@@ -123,14 +127,7 @@ Code Block
 ```
 [![LinkedIn](https://i.sstatic.net/gVE0j.png)](https://www.linkedin.com/in/abdullahdangac)
 ```
-[![LinkedIn](https://i.sstatic.net/gVE0j.png)](https://www.linkedin.com/in/abdullahdangac)
-
-<br />
-
-```
-[![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/abdullahdangac)
-```
-[![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/abdullahdangac)
+[![LinkedIn](https://i.sstatic.net/gVE0j.png)_LinkedIn](https://www.linkedin.com/in/abdullahdangac)
 
 <br />
 
@@ -138,3 +135,12 @@ Code Block
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/abdullahdangac/)
 ```
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/abdullahdangac/)
+
+<br />
+
+### Section Link
+```
+[My Section](#my-section)
+
+# My Section
+```
