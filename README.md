@@ -1,12 +1,19 @@
 # Markdown Notes
 
+## CONTENTS
 [Header](#header)  
 [Font Style](#font-style)  
 [Code](#code)  
 [List](#list)  
 [Quote](#quote)  
+[Table](#table)  
 [Link](#link)  
 
+<br />
+
+---
+
+<br />
 
 # HEADER
 ```
@@ -98,6 +105,22 @@ Code Block
 ```
 
 > This is a quote.
+
+<br />
+
+---
+
+<br />
+
+# TABLE
+```
+| Name | Surname |
+|--|--|
+| Abdullah | Dangac |
+```
+| Name | Surname |
+|--|--|
+| Abdullah | Dangac |
 
 <br />
 
