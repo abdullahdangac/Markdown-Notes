@@ -1,24 +1,32 @@
 # Markdown-Notes
 
-## Başlıklar
+[Header](#header)  
+[Font Style](#font-style)
+[Code](#code)
+
+# HEADER
 ```
-# H1 (En Büyük)
+# H1 (Biggest)
 ## H2 
 ### H3 
 #### H4 
 ##### H5 
-###### H6 (En Küçük)
+###### H6 (Smallest)
 ```
-# H1 (En Büyük)
+# H1 (Biggest)
 ## H2 
 ### H3 
 #### H4 
 ##### H5 
-###### H6 (En Küçük)
+###### H6 (Smallest)
 
 <br />
 
-# Yazı Tipleri
+---
+
+<br />
+
+# FONT STYLE
 ```
 *Italic*
 **Bold**
@@ -27,3 +35,106 @@
 *Italic*  
 **Bold**  
 ~~Strike-through~~
+
+<br />
+
+---
+
+<br />
+
+# CODE
+\`Code`
+
+`Code`
+
+<br />
+
+\```
+Code Block
+\```
+
+```
+Code Block
+```
+
+<br />
+
+---
+
+<br />
+
+# LIST
+```
+- Element 1
+- Element 2
+```
+
+- Element 1
+- Element 2
+
+<br />
+
+```
+- [x] Completed
+- [ ] Not completed
+```
+
+- [x] Completed
+- [ ] Not completed
+
+<br />
+
+---
+
+<br />
+
+# QUOTE
+```
+> This is a quote.
+```
+
+> This is a quote.
+
+<br />
+
+---
+
+<br />
+
+# LINK
+```
+[Link Text](URL)
+```
+
+#### e.g.
+```
+[Markdown Notes](https://github.com/abdullahdangac/Markdown-Notes)
+```
+[Markdown Notes](https://github.com/abdullahdangac/Markdown-Notes)
+
+<br />
+
+### Images as link
+```
+[![Image Alt Text](image-url.jpg)](hyperlink-url)
+```
+
+#### e.g.
+```
+[![LinkedIn](https://i.sstatic.net/gVE0j.png)](https://www.linkedin.com/in/abdullahdangac)
+```
+[![LinkedIn](https://i.sstatic.net/gVE0j.png)](https://www.linkedin.com/in/abdullahdangac)
+
+<br />
+
+```
+[![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/abdullahdangac)
+```
+[![GitHub](https://i.sstatic.net/tskMh.png) GitHub](https://github.com/abdullahdangac)
+
+<br />
+
+```
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/abdullahdangac/)
+```
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-Profile-informational?style=flat&logo=linkedin&logoColor=white&color=0D76A8)](https://www.linkedin.com/in/abdullahdangac/)
