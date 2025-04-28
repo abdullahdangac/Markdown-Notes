@@ -1,33 +1,37 @@
 # Markdown Notes
 
 ## CONTENTS
-[TEXT](#text)  
-&emsp; [Header](#header)  
-&emsp; [Styling Text](#styling-text)  
-&emsp; [Aligning Text](#aligning-text)  
-&emsp; [List Text](#list-text)  
-&emsp; [Quote Text](#quote-text)  
-&emsp; [Collapsed Section](#collapsed-section)  
-&emsp; [Alerts](#alerts)  
-&emsp; [Hiding Content](#hiding-content)  
+[1. TEXT](#text)  
+&emsp; [1.1. Header](#header)  
+&emsp; [1.2. Space](#header)  
+&emsp; [1.3. Line Break](#header)  
+&emsp; [1.4. Styling Text](#styling-text)  
+&emsp; [1.5. Aligning Text](#aligning-text)  
+&emsp; [1.6. List Text](#list-text)  
+&emsp; [1.7. Quote Text](#quote-text)  
+&emsp; [1.8. Collapsed Section](#collapsed-section)  
+&emsp; [1.9. Alerts](#alerts)  
+&emsp; [1.10. Hiding Content](#hiding-content)  
 
-[CODE](#code)  
-&emsp; [Inline Code](#inline-code)  
-&emsp; [Code Block](#code-block)  
+[2. CODE](#code)  
+&emsp; [2.1. Inline Code](#inline-code)  
+&emsp; [2.2. Code Block](#code-block)  
 
-[LINK](#link)  
-&emsp; [Text Link](#text-link)  
-&emsp; [Image as Link](#images-as-link)  
-&emsp; [Section Link](#section-link)  
-&emsp; [Reference Link](#reference-link)  
+[3. LINK](#link)  
+&emsp; [3.1. Text Link](#text-link)  
+&emsp; [3.2. Image as Link](#images-as-link)  
+&emsp; [3.3. Section Link](#section-link)  
+&emsp; [3.4. Reference Link](#reference-link)  
 
-[IMAGE](#image)  
-&emsp; [Resizing Image](#resizing-image)  
-&emsp; [Aligning Image](#aligning-image)  
+[4. IMAGE](#image)  
+&emsp; [4.1. Resizing Image](#resizing-image)  
+&emsp; [4.2. Aligning Image](#aligning-image)  
 
-[TABLE](#table)  
-&emsp; [Aligning Text in Table](#aligning-text-in-table)  
-&emsp; [Side by Side Tables](#side-by-side-tables)  
+[5. TABLE](#table)  
+&emsp; [5.1. Aligning Text in Table](#aligning-text-in-table)  
+&emsp; [5.2. Side by Side Tables](#side-by-side-tables)  
+
+[6. MATHEMATICAL EXPRESSION](#mathematical-expression)  
 
 <br/>
 <br/>
@@ -57,7 +61,7 @@
 <br/>
 <br/>
 
-## Space in Text
+## Space
 ```markdown
 &nbsp;  to add a single space.
 &ensp;  to add 2 spaces.
@@ -79,7 +83,7 @@ No space
 <br/>
 <br/>
 
-## Line Break in Text
+## Line Break
 An `.md` file, would render on one line without a line break.
 ```markdown
 Markdown
@@ -531,17 +535,17 @@ Or leave title empty and use the [reference link text] itself.
 
 # TABLE
 ```markdown
-| 1x1 | 1x2 | 1x3 |
+|A |B |C |
 |--|--|--|
-| 2x1 | 2x2 | 2x3 |
-| 3x1 | 3x2 | 3x3 |
-| 4x1 | 4x2 | 4x3 |
+|1 |2 |3 |
+|4 |5 |6 |
+|7 |8 |9 |
 ```
-| 1x1 | 1x2 | 1x3 |
+|A |B |C |
 |--|--|--|
-| 2x1 | 2x2 | 2x3 |
-| 3x1 | 3x2 | 3x3 |
-| 4x1 | 4x2 | 4x3 |
+|1 |2 |3 |
+|4 |5 |6 |
+|7 |8 |9 |
 
 <br/>
 
@@ -603,3 +607,39 @@ Or leave title empty and use the [reference link text] itself.
 
 </td></tr>
 </table>
+
+<br/>
+<br/>
+
+---------------------------------------------------------
+
+<br/>
+<br/>
+
+## MATHEMATICAL EXPRESSION
+### Inline Mathematical Expression
+```markdown
+$\sqrt{3x-1}+(1+x)^2$
+```
+$\sqrt{3x-1}+(1+x)^2$
+
+<br/>
+
+### Mathematical Expression Block
+```markdown
+$$
+\sqrt{3x-1}+(1+x)^2
+$$
+```
+$$
+\sqrt{3x-1}+(1+x)^2
+$$
+
+````
+```math
+\sqrt{3x-1}+(1+x)^2
+```
+````
+```math
+\sqrt{3x-1}+(1+x)^2
+```
