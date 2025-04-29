@@ -248,6 +248,26 @@ Text in collapsed section.
 
 ## 1.9. Alerts
 ```markdown
+> :memo: **NOTE**: Useful information that users should know, even when skimming content.
+
+> :bulb: **TIP**: Helpful advice for doing things better or more easily.
+
+> :warning: **WARNING**: Urgent info that needs immediate user attention to avoid problems.
+
+> :heavy_check_mark: **CHECK MARK**: can be used to indicate when an action is complete or that something is correct.
+```
+> :memo: **NOTE**: Useful information that users should know, even when skimming content.
+
+> :bulb: **TIP**: Helpful advice for doing things better or more easily.
+
+> :warning: **WARNING**: Urgent info that needs immediate user attention to avoid problems.
+
+> :heavy_check_mark: **CHECK MARK**: can be used to indicate when an action is complete or that something is correct.
+
+<br/>
+
+There is another use for GitHub:  
+```markdown
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
 
