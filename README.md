@@ -13,29 +13,38 @@
 &emsp; [1.9. Alerts](#19-alerts)  
 &emsp; [1.10. Hiding Content](#110-hiding-content)  
 
-[2. CODE](#code)  
-&emsp; [2.1. Inline Code](#inline-code)  
-&emsp; [2.2. Code Block](#code-block)  
+[2. CODE](#2-code)  
+&emsp; [2.1. Inline Code](#21-inline-code)  
+&emsp; [2.2. Code Block](#22-code-block)  
 
-[3. LINK](#link)  
-&emsp; [3.1. Text Link](#text-link)  
-&emsp; [3.2. Image as Link](#images-as-link)  
-&emsp; [3.3. Section Link](#section-link)  
-&emsp; [3.4. Reference Link](#reference-link)  
+[3. LINK](#3-link)  
+&emsp; [3.1. Text Link](#31-text-link)  
+&emsp; [3.2. Image as Link](#32-images-as-link)  
+&emsp; [3.3. Section Link](#33-section-link)  
+&emsp; [3.4. Reference Link](#34-reference-link)  
 
-[4. IMAGE](#image)  
-&emsp; [4.1. Resizing Image](#resizing-image)  
-&emsp; [4.2. Aligning Image](#aligning-image)  
+[4. IMAGE](#4-image)  
+&emsp; [4.1. Resizing Image](#41-resizing-image)  
+&emsp; [4.2. Aligning Image](#42-aligning-image)  
 
-[5. TABLE](#table)  
-&emsp; [5.1. Aligning Text in Table](#aligning-text-in-table)  
-&emsp; [5.2. Side by Side Tables](#side-by-side-tables)  
+[5. TABLE](#5-table)  
+&emsp; [5.1. Aligning Text in Table](#51-aligning-text-in-table)  
+&emsp; [5.2. Side by Side Tables](#52-side-by-side-tables)  
 
-[6. MATHEMATICAL EXPRESSION](#mathematical-expression)  
+[6. MATHEMATICAL EXPRESSION](#6-mathematical-expression)  
 &emsp; [6.1. Inline Mathematical Expression](#inline-mathematical-expression)  
 &emsp; [6.2. Mathematical Expression Block](#mathematical-expression-block)  
-&emsp; [6.3. Mathematical Symbols](#mathematical-symbols)  
-&emsp; [6.4. Greek Alphabet](#greek-alphabet)  
+&emsp; [6.3. Arithmetic Expressions](#63-arithmetic-expressions)  
+&emsp; [6.4. Equality Expressions](#64-equality-expressions)  
+&emsp; [6.5. Comparison Expressions](#65-comparison-expressions)  
+&emsp; [6.6. Algebra Expressions](#66-algebra-expressions)  
+&emsp; [6.7. Angle Expressions](#67-angle-expressions)  
+&emsp; [6.8. Probability & Statistics](#68-probability-&-statistics)  
+&emsp; [6.9. Complex Numbers](#69-complex-numbers)  
+&emsp; [6.10. Linear Algebra: Vectors](#610-linear-algebra:-vectors)  
+&emsp; [6.11. Linear Algebra: Matrices](#611-linear-algebra:-matrices)  
+&emsp; [6.12. Calculus Expressions](#612-calculus-expressions)  
+&emsp; [6.13. Greek Alphabet](#greek-alphabet)  
 
 <br/>
 <br/>
@@ -317,8 +326,8 @@ this content will appear in the rendered Markdown
 <br/>
 <br/>
 
-# CODE
-## Inline Code
+# 2. CODE
+## 2.1. Inline Code
 ```markdown
 This is `inline code` example.
 ```
@@ -326,7 +335,7 @@ This is `inline code` example.
 
 <br/>
 
-## Code Block
+## 2.2. Code Block
 ````markdown
 ```code-language
 Code Block
@@ -367,12 +376,8 @@ int main()
 <br/>
 <br/>
 
-# LINK
-## Text Link
-```markdown
-[Link Text](URL)
-```
-##### with title
+# 3. LINK
+## 3.1. Text Link
 ```markdown
 [Link Text](URL "Title")
 ```
@@ -385,7 +390,7 @@ int main()
 
 <br/>
 
-## Images as Link
+## 3.2. Images as Link
 ```
 [![Image Alt Text](image-url.jpg)](hyperlink-url)
 ```
@@ -413,7 +418,7 @@ int main()
 
 <br/>
 
-## Section Link
+## 3.3. Section Link
 
 ```markdown
 ### Sample Section
@@ -448,7 +453,7 @@ Link to the helpful section: [Link Text](#thisll-be-a-helpful-section-about-the-
 
 <br/>
 
-## Reference Link
+## 3.4. Reference Link
 ```markdown
 Use link as [reference-style][reference link text] with new link title.  
 Or leave title empty and use the [reference link text] itself.
@@ -482,7 +487,7 @@ Or leave title empty and use the [reference link text] itself.
 <br/>
 <br/>
 
-# IMAGE
+# 4. IMAGE
 ```markdown
 ![Alt Text](image-url.jpg "Image Title")
 ```
@@ -495,7 +500,7 @@ Or leave title empty and use the [reference link text] itself.
 
 <br/>
 
-## Resizing Image
+## 4.1. Resizing Image
 #### Resize with pixel
 ```markdown
 <img src="image_name.png" alt="Alt Text" width=300 height=450 title="Image Title"/>
@@ -519,7 +524,7 @@ Or leave title empty and use the [reference link text] itself.
 
 <br/>
 
-## Aligning Image
+## 4.2. Aligning Image
 ```markdown
 <p align="align-type">
   <img src="image_name.png" alt="Alt Text" width="50%" height="50%" title="Image Title"/>
@@ -560,7 +565,7 @@ Or leave title empty and use the [reference link text] itself.
 <br/>
 <br/>
 
-# TABLE
+# 5. TABLE
 ```markdown
 |A |B |C |
 |--|--|--|
@@ -576,7 +581,7 @@ Or leave title empty and use the [reference link text] itself.
 
 <br/>
 
-## Aligning Text in Table
+## 5.1. Aligning Text in Table
 ```markdown
 | Left-aligned | Center-aligned | Right-aligned |
 |:-------------|:--------------:|--------------:|
@@ -595,7 +600,7 @@ Or leave title empty and use the [reference link text] itself.
 
 <br/>
 
-## Side by Side Tables
+## 5.2. Side by Side Tables
 ```markdown
 <table>
 <tr><th>First Table</th><th>Second Table</th></tr>
@@ -643,8 +648,8 @@ Or leave title empty and use the [reference link text] itself.
 <br/>
 <br/>
 
-# MATHEMATICAL EXPRESSION
-## Inline Mathematical Expression
+# 6. MATHEMATICAL EXPRESSION
+## 6.1. Inline Mathematical Expression
 ```markdown
 $\sqrt{3x-1}+(1+x)^2$
 ```
@@ -652,7 +657,7 @@ $\sqrt{3x-1}+(1+x)^2$
 
 <br/>
 
-## Mathematical Expression Block
+## 6.2. Mathematical Expression Block
 ```markdown
 $$
 \sqrt{3x-1}+(1+x)^2
@@ -673,8 +678,7 @@ $$
 
 <br/>
 
-## Mathematical Symbols
-### Arithmetic
+## 6.3. Arithmetic Expressions
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Addition                                   | $x+y$                                                           |  `$x+y$`  |
@@ -687,7 +691,9 @@ $$
 |Squared <br/> Cubed <br/> nth-Power        | $x^2$ <br/> $x^3$ <br/> $x^n$                                   |  `$x^2$` <br/> `$x^3$` <br/> `$x^n$`  |
 |Square Root <br/> Cube Root <br/> nth-Root | $\sqrt{x}$ <br/> $\sqrt[3]{x}$ <br/> $\sqrt[n]{x}$              |  `$\sqrt{x}$` <br/> `$\sqrt[3]{x}$` <br/> `$\sqrt[n]{x}`  |
 
-### Equality
+<br/>
+
+## 6.4. Equality Expressions
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Equals                    | $x=y$         |  `$x=y$`  |
@@ -696,38 +702,211 @@ $$
 |Proportional To           | $x \propto y$ |  `$x \propto y$`  |
 |Approximately Equal To	   | $x \approx y$ |  `$x \approx y$`  |
 
-### Comparison
+<br/>
+
+## 6.5. Comparison Expressions
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Less Than <br/> Greater Than                   | $a<b$ <br/> $a>b$           |  `$a<b$` <br/> `$a>b$`  |
 |Less Than or Equal <br/> Greater Than or Equal | $a \leq b$ <br/> $a \geq b$ |  `$a \leq b$` <br/> `$a \geq b$`  |
 |Much Smaller Than <br/> Much Larger Than       | $a \ll b$ <br/> $a \gg b$   |  `$a \ll b$` <br/> `$a \gg b$`  |
 
-### Algebra
+<br/>
+
+## 6.6. Algebra Expressions
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
-|Factorial | $x!$ |  `$x!$`  |
-|Absolute Value | $\|-x\|$ |  `$\|-x\|$`  |
-|Function | $f(x)$ |  `$f(x)$`  |
-|Change or Difference | $\Delta x = x_1 - x_0$ |  `$\Delta x = x_1 - x_0$`  |
-|Pi | $\pi = 3.14159 \ldots$ |  `$\pi = 3.14159...$`  |
-|Euler’s Constant | $e = 2.71828 \ldots$ |  `$e = 2.71828...$`  |
-|Sum | $\displaystyle\sum_{k=0}^n k$ |  `$\displaystyle\sum_{k=0}^n k$`  |
-|Series Product | $\displaystyle\prod_{x=0}^n x$ |  `$\displaystyle\prod_{x=0}^n x$`  |
-|Brackets <br/> Parentheses | $[\ldots]$ <br/> $(\ldots)$ |  `$[...]$` <br/> `$(...)$`  |
-
-### Angle
-|Notation |Example |Markdown Format |
-|:---|:---:|:---:|
-|Angle | $\angle$ |  `$\angle$`  |
-|Degree, Arc Min, Arc Sec | $30\degree 45' 30''$ |  `$30\degree 40\rq 50\rq\rq$`  |
-|Radians | $2\pi rad$ |  `$2\pi rad$`  |
-
-$$A=\begin{bmatrix}1&2&3\cr4&5&6\end{bmatrix}$$
+|Factorial                  | $x!$                           |  `$x!$`  |
+|Absolute Value             | $\|-x\|$                       |  `$\|-x\|$`  |
+|Function                   | $f(x)$                         |  `$f(x)$`  |
+|Change or Difference       | $\Delta x = x_1 - x_0$         |  `$\Delta x = x_1 - x_0$`  |
+|Pi                         | $\pi = 3.14159 \ldots$         |  `$\pi = 3.14159...$`  |
+|Euler’s Constant           | $e = 2.71828 \ldots$           |  `$e = 2.71828...$`  |
+|Sum                        | $\displaystyle\sum_{k=0}^n k$  |  `$\displaystyle\sum_{k=0}^n k$`  |
+|Series Product             | $\displaystyle\prod_{x=0}^n x$ |  `$\displaystyle\prod_{x=0}^n x$`  |
+|Brackets <br/> Parentheses | $[\ldots]$ <br/> $(\ldots)$    |  `$[...]$` <br/> `$(...)$`  |
 
 <br/>
 
-## Greek Alphabet
+## 6.7. Angle Expressions
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Angle                    | $\angle$             |  `$\angle$`  |
+|Degree, Arc Min, Arc Sec | $30\degree 45' 30''$ |  `$30\degree 40\rq 50\rq\rq$`  |
+|Radians                  | $2\pi rad$           |  `$2\pi rad$`  |
+
+<br/>
+
+## 6.8. Probability & Statistics
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Probability of Event A         | $P(A)$ or $\Pr(A)$                                   |  `$P(A)$ or $\Pr(A)$`  |
+|Intersection Prob. of A & B    | $P(A \cap B)$                                        |  `$P(A \cap B)$`  |
+|Union Prob. of A or B          | $P(A \cup B)$                                        |  `$P(A \cup B)$`  |
+|Conditional Prob. of A Given B | $P(A\|B)$                                            |  `$P(A\|B)$`  |
+|Median                         | $\tilde{x}$                                          |  `$\tilde{x}$`  |
+|Population Mean                | $\mu$ <br/> $\overline{x}$ <br/> $\langle x \rangle$ |  `$\mu$` <br/> `$\overline{x}$` <br/> `$\langle x \rangle$`  |
+|Standard Deviation             | $\sigma$                                             |  `$\sigma$`  |
+|Varience                       | $\sigma^2$                                           |  `$\sigma^2$`  |
+
+<br/>
+
+## 6.9. Complex Numbers
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Imaginary Unit `i`	              | $z = a + bi$        |  `$z = a + bi$`  |
+|Real Part Of Complex Number      | $\text{Re}(z)=a$    |  `$\text{Re}(z) = a$`  |
+|Imaginary Part Of Complex Number | $\text{Im}(z)=b$    |  `$\text{Im}(z) = b$`  |
+|Complex Conjugate                | $\bar{z}=z^*=a-bi$  |  `$\bar{z} = z^* = a - bi$`  |
+
+<br/>
+
+## 6.10. Linear Algebra: Vectors
+### Row Vector
+```markdown
+$$
+v = \begin{pmatrix}
+1 & 2 & 3
+\end{pmatrix}
+$$
+```
+$$
+v = \begin{pmatrix}
+1 & 2 & 3
+\end{pmatrix}
+$$
+
+### Column Vector
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Vectors	     | $\mathbf{v}$ <br/> $\overline{v}$ <br/> $\vec{v}$                       |  `$\mathbf{v}$` <br/> `$\overline{v}$` <br/> `$\vec{v}$`  |
+|Dot Product   | $\mathbf{v} \cdot \mathbf{w}$ <br/> $(v,w)$ <br/> $\left<v \| w\right>$ |  `$\mathbf{v} \cdot \mathbf{w}$` <br/> `$(v,w)$` <br/> `$\left< v \| w \right>$ `  |
+|Cross Product | $v \times w$                                                            |  `$v \times w$`  |
+|Length of v   | $\|v\|$                                                                 |  `$\|v\|$`  |
+|Norm of v     | $\|\|v\|\|$                                                             |  `$\|\|v\|\|$`  |
+
+```markdown
+$$
+w = \begin{pmatrix}
+4 \\
+5 \\
+6 \\
+\end{pmatrix}
+$$
+```
+$$
+w = \begin{pmatrix}
+4 \\
+5 \\
+6 \\
+\end{pmatrix}
+$$
+
+<br/>
+
+## 6.11. Linear Algebra: Matrices
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Product	           | $A \cdot B$   |  `$A \cdot B$`  |
+|Hadamard Product    | $A \circ B$   |  `$A \circ B$`  |
+|Kronecker Product   | $A \otimes B$ |  `$A \otimes B$`  |
+|Transposed Matrix   | $A^T$         |  `$A^T$`  |
+|Conjugate Transpose | $A^\ast$      |  `$A^\ast$`  |
+|Inverse Matrix      | $A^{-1}$      |  `$A^{-1}$`  |
+|Determinant         | $\|A\|$       |  `$\|A\|$`  |
+|Norm                | $\|\|A\|\|$   |  `$\|\|A\|\|$`  |
+
+### Matrix
+```markdown
+$$
+A = \begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6
+\end{bmatrix}
+$$
+```
+$$
+A = \begin{bmatrix}
+1 & 2 & 3 \\
+4 & 5 & 6
+\end{bmatrix}
+$$
+
+<br/>
+
+## 6.12. Calculus Expressions
+### Partial Function	
+```markdown
+$$
+f(x) = \begin{cases}
+x & \text{if } a>b \\
+y & \text{if } c>d
+\end{cases}
+$$
+```
+$$
+f(x) = \begin{cases}
+x & \text{if } a>b \\
+y & \text{if } c>d
+\end{cases}
+$$
+
+### Integration
+```markdown
+$$
+\int_{a}^{b} dx
+$$
+```
+$$
+\int_{a}^{b} dx
+$$
+
+### Differentiation	
+#### First Derivative
+```markdown
+$$
+\frac{df}{dx}
+$$
+```
+$$
+\frac{df}{dx}
+$$
+
+#### Partial Derivative
+```markdown
+$$
+\frac{\partial f}{\partial x}
+$$
+```
+$$
+\frac{\partial f}{\partial x}
+$$
+
+#### First and Second Derivative of Function
+```markdown
+$$
+f\rq
+f\rq\rq
+$$
+```
+$$
+f' \ \ \ \ f''
+$$
+
+#### First and Second Derivative With Respect To Time
+```markdown
+$$
+\dot f
+\ddot f
+$$
+```
+$$
+\dot f \ \ \ \ \ddot f
+$$
+
+<br/>
+
+## 6.13. Greek Alphabet
 |Letter |Lower |Markdown Format |Upper |Markdown Format |
 |:---|:---:|:---:|:---:|:---:|
 |Alpha |$\alpha$ |  `$\alpha$`  |$\text{A}$ |  `$\Alpha$`  |
