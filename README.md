@@ -263,7 +263,7 @@ Text in collapsed section.
 
 > :warning: **WARNING**: Urgent info that needs immediate user attention to avoid problems.
 
-> :heavy_check_mark: **CHECK MARK**: can be used to indicate when an action is complete or that something is correct.
+> :heavy_check_mark: **CHECK MARK**: Used to indicate when an action is complete or that something is correct.
 ```
 > :memo: **NOTE**: Useful information that users should know, even when skimming content.
 
@@ -271,7 +271,7 @@ Text in collapsed section.
 
 > :warning: **WARNING**: Urgent info that needs immediate user attention to avoid problems.
 
-> :heavy_check_mark: **CHECK MARK**: can be used to indicate when an action is complete or that something is correct.
+> :heavy_check_mark: **CHECK MARK**: Used to indicate when an action is complete or that something is correct.
 
 <br/>
 
@@ -762,6 +762,14 @@ $$
 <br/>
 
 ## 6.10. Linear Algebra: Vectors
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Vectors	     | $\mathbf{v}$ <br/> $\overline{v}$ <br/> $\vec{v}$                       |  `$\mathbf{v}$` <br/> `$\overline{v}$` <br/> `$\vec{v}$`  |
+|Dot Product   | $\mathbf{v} \cdot \mathbf{w}$ <br/> $(v,w)$ <br/> $\left<v \| w\right>$ |  `$\mathbf{v} \cdot \mathbf{w}$` <br/> `$(v,w)$` <br/> `$\left< v \| w \right>$ `  |
+|Cross Product | $v \times w$                                                            |  `$v \times w$`  |
+|Length of v   | $\|v\|$                                                                 |  `$\|v\|$`  |
+|Norm of v     | $\|\|v\|\|$                                                             |  `$\|\|v\|\|$`  |
+
 #### Row Vector
 ```markdown
 $$
@@ -777,14 +785,6 @@ v = \begin{pmatrix}
 $$
 
 #### Column Vector
-|Notation |Example |Markdown Format |
-|:---|:---:|:---:|
-|Vectors	     | $\mathbf{v}$ <br/> $\overline{v}$ <br/> $\vec{v}$                       |  `$\mathbf{v}$` <br/> `$\overline{v}$` <br/> `$\vec{v}$`  |
-|Dot Product   | $\mathbf{v} \cdot \mathbf{w}$ <br/> $(v,w)$ <br/> $\left<v \| w\right>$ |  `$\mathbf{v} \cdot \mathbf{w}$` <br/> `$(v,w)$` <br/> `$\left< v \| w \right>$ `  |
-|Cross Product | $v \times w$                                                            |  `$v \times w$`  |
-|Length of v   | $\|v\|$                                                                 |  `$\|v\|$`  |
-|Norm of v     | $\|\|v\|\|$                                                             |  `$\|\|v\|\|$`  |
-
 ```markdown
 $$
 w = \begin{pmatrix}
