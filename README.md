@@ -32,19 +32,19 @@
 &emsp; [5.2. Side by Side Tables](#52-side-by-side-tables)  
 
 [6. MATHEMATICAL EXPRESSION](#6-mathematical-expression)  
-&emsp; [6.1. Inline Mathematical Expression](#inline-mathematical-expression)  
-&emsp; [6.2. Mathematical Expression Block](#mathematical-expression-block)  
+&emsp; [6.1. Inline Mathematical Expression](#61-inline-mathematical-expression)  
+&emsp; [6.2. Mathematical Expression Block](#62-mathematical-expression-block)  
 &emsp; [6.3. Arithmetic Expressions](#63-arithmetic-expressions)  
 &emsp; [6.4. Equality Expressions](#64-equality-expressions)  
 &emsp; [6.5. Comparison Expressions](#65-comparison-expressions)  
 &emsp; [6.6. Algebra Expressions](#66-algebra-expressions)  
 &emsp; [6.7. Angle Expressions](#67-angle-expressions)  
-&emsp; [6.8. Probability & Statistics](#68-probability-&-statistics)  
+&emsp; [6.8. Probability & Statistics](#68-probability--statistics)  
 &emsp; [6.9. Complex Numbers](#69-complex-numbers)  
-&emsp; [6.10. Linear Algebra: Vectors](#610-linear-algebra:-vectors)  
-&emsp; [6.11. Linear Algebra: Matrices](#611-linear-algebra:-matrices)  
+&emsp; [6.10. Linear Algebra: Vectors](#610-linear-algebra-vectors)  
+&emsp; [6.11. Linear Algebra: Matrices](#611-linear-algebra-matrices)  
 &emsp; [6.12. Calculus Expressions](#612-calculus-expressions)  
-&emsp; [6.13. Greek Alphabet](#greek-alphabet)  
+&emsp; [6.13. Greek Alphabet](#613-greek-alphabet)  
 
 <br/>
 <br/>
@@ -816,7 +816,7 @@ $$
 |Determinant         | $\|A\|$       |  `$\|A\|$`  |
 |Norm                | $\|\|A\|\|$   |  `$\|\|A\|\|$`  |
 
-### Matrix
+### 6.11.1. Matrix
 ```markdown
 $$
 A = \begin{bmatrix}
@@ -835,7 +835,7 @@ $$
 <br/>
 
 ## 6.12. Calculus Expressions
-### Partial Function	
+### 6.12.1. Partial Function	
 ```markdown
 $$
 f(x) = \begin{cases}
@@ -851,7 +851,7 @@ y & \text{if } c>d
 \end{cases}
 $$
 
-### Integration
+### 6.12.2. Integration
 ```markdown
 $$
 \int_{a}^{b} dx
@@ -861,8 +861,8 @@ $$
 \int_{a}^{b} dx
 $$
 
-### Differentiation	
-#### First Derivative
+### 6.12.3. Differentiation	
+#### 6.12.3.1. First Derivative
 ```markdown
 $$
 \frac{df}{dx}
@@ -872,7 +872,7 @@ $$
 \frac{df}{dx}
 $$
 
-#### Partial Derivative
+#### 6.12.3.2. Partial Derivative
 ```markdown
 $$
 \frac{\partial f}{\partial x}
@@ -882,7 +882,7 @@ $$
 \frac{\partial f}{\partial x}
 $$
 
-#### First and Second Derivative of Function
+#### 6.12.3.3. First and Second Derivative of Function
 ```markdown
 $$
 f\rq
@@ -893,7 +893,7 @@ $$
 f' \ \ \ \ f''
 $$
 
-#### First and Second Derivative With Respect To Time
+#### 6.12.3.4. First and Second Derivative With Respect To Time
 ```markdown
 $$
 \dot f
