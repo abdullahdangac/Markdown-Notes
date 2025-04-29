@@ -32,6 +32,10 @@
 &emsp; [5.2. Side by Side Tables](#side-by-side-tables)  
 
 [6. MATHEMATICAL EXPRESSION](#mathematical-expression)  
+&emsp; [6.1. Inline Mathematical Expression](#inline-mathematical-expression)  
+&emsp; [6.2. Mathematical Expression Block](#mathematical-expression-block)  
+&emsp; [6.3. Mathematical Symbols](#mathematical-symbols)  
+&emsp; [6.4. Greek Alphabet](#greek-alphabet)  
 
 <br/>
 <br/>
@@ -662,6 +666,44 @@ $$
 |Plus or Minus <br/> Minus or Plus          | $\pm x$ <br/> $\mp x$                                           |  `$\pm x$` <br/> `$\mp x$`  |
 |Squared <br/> Cubed <br/> nth-Power        | $x^2$ <br/> $x^3$ <br/> $x^n$                                   |  `$x^2$` <br/> `$x^3$` <br/> `$x^n$`  |
 |Square Root <br/> Cube Root <br/> nth-Root | $\sqrt{x}$ <br/> $\sqrt[3]{x}$ <br/> $\sqrt[n]{x}$              |  `$\sqrt{x}$` <br/> `$\sqrt[3]{x}$` <br/> `$\sqrt[n]{x}`  |
+
+#### Equality
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Equals                    | $x=y$         |  `$x=y$`  |
+|Not Equals	               | $x \neq y$    |  `$x \neq y$`  |
+|Identical / Equivalent To | $x \equiv y$  |  `$x \equiv y$`  |
+|Proportional To           | $x \propto y$ |  `$x \propto y$`  |
+|Approximately Equal To	   | $x \approx y$ |  `$x \approx y$`  |
+
+#### Comparison
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Less Than <br/> Greater Than                   | $a<b$ <br/> $a>b$           |  `$a<b$` <br/> `$a>b$`  |
+|Less Than or Equal <br/> Greater Than or Equal | $a \leq b$ <br/> $a \geq b$ |  `$a \leq b$` <br/> `$a \geq b$`  |
+|Much Smaller Than <br/> Much Larger Than       | $a \ll b$ <br/> $a \gg b$   |  `$a \ll b$` <br/> `$a \gg b$`  |
+
+#### Algebra
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Factorial | $x!$ |  `$x!$`  |
+|Absolute Value | $\|-x\|$ |  `$\|-x\|$`  |
+|Function | $f(x)$ |  `$f(x)$`  |
+|Change or Difference | $\Delta x = x_1 - x_0$ |  `$\Delta x = x_1 - x_0$`  |
+|Pi | $\pi = 3.14159 \ldots$ |  `$\pi = 3.14159...$`  |
+|Euler’s Constant | $e = 2.71828 \ldots$ |  `$e = 2.71828...$`  |
+|Sum | $\displaystyle\sum_{k=0}^n k$ |  `$\displaystyle\sum_{k=0}^n k$`  |
+|Series Product | $\displaystyle\prod_{x=0}^n x$ |  `$\displaystyle\prod_{x=0}^n x$`  |
+|Brackets <br/> Parentheses | $[\ldots]$ <br/> $(\ldots)$ |  `$[...]$` <br/> `$(...)$`  |
+
+#### Angle
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Angle | $\angle$ |  `$\angle$`  |
+|Degree, Arc Min, Arc Sec | $30\degree 45' 30''$ |  `$30\degree 40\rq 50\rq\rq$`  |
+|Radians | $2\pi rad$ |  `$2\pi rad$`  |
+
+$$A=\begin{bmatrix}1&2&3\cr4&5&6\end{bmatrix}$$
 
 <br/>
 
