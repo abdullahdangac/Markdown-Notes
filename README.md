@@ -1,17 +1,17 @@
 # Markdown Notes
 
 ## CONTENTS
-[1. TEXT](#text)  
-&emsp; [1.1. Header](#header)  
-&emsp; [1.2. Space](#header)  
-&emsp; [1.3. Line Break](#header)  
-&emsp; [1.4. Styling Text](#styling-text)  
-&emsp; [1.5. Aligning Text](#aligning-text)  
-&emsp; [1.6. List Text](#list-text)  
-&emsp; [1.7. Quote Text](#quote-text)  
-&emsp; [1.8. Collapsed Section](#collapsed-section)  
-&emsp; [1.9. Alerts](#alerts)  
-&emsp; [1.10. Hiding Content](#hiding-content)  
+[1. TEXT](#1-text)  
+&emsp; [1.1. Header](#11-header)  
+&emsp; [1.2. Space](#12-space)  
+&emsp; [1.3. Line Break](#13-line-break)  
+&emsp; [1.4. Styling Text](#14-styling-text)  
+&emsp; [1.5. Aligning Text](#15-aligning-text)  
+&emsp; [1.6. List Text](#16-list-text)  
+&emsp; [1.7. Quote Text](#17-quote-text)  
+&emsp; [1.8. Collapsed Section](#18-collapsed-section)  
+&emsp; [1.9. Alerts](#19-alerts)  
+&emsp; [1.10. Hiding Content](#110-hiding-content)  
 
 [2. CODE](#code)  
 &emsp; [2.1. Inline Code](#inline-code)  
@@ -45,8 +45,8 @@
 <br/>
 <br/>
 
-# TEXT
-## Header
+# 1. TEXT
+## 1.1. Header
 ```markdown
 # H1 (Biggest)
 ## H2 
@@ -65,7 +65,7 @@
 <br/>
 <br/>
 
-## Space
+## 1.2. Space
 ```markdown
 &nbsp;  to add a single space.
 &ensp;  to add 2 spaces.
@@ -87,7 +87,7 @@ No space
 <br/>
 <br/>
 
-## Line Break
+## 1.3. Line Break
 An `.md` file, would render on one line without a line break.
 ```markdown
 Markdown
@@ -137,7 +137,7 @@ Notes
 <br/>
 <br/>
 
-## Styling Text
+## 1.4. Styling Text
 | Style           | Syntax             | Example                         | Output                        |
 |-----------------|--------------------|---------------------------------|-------------------------------|
 | Bold            | `** **` or `__ __` | `**Bold**`                      | **Bold**                      |
@@ -151,7 +151,7 @@ Notes
 <br/>
 <br/>
 
-## Aligning Text
+## 1.5. Aligning Text
 ```markdown
 <p align="left">Left-aligned text</p>  
 <p align="center">Center-aligned text</p>  
@@ -164,7 +164,7 @@ Notes
 <br/>
 <br/>
 
-## List Text
+## 1.6. List Text
 ```markdown
 - Element
 
@@ -178,7 +178,7 @@ Notes
 
 <br/>
 
-### Bullet List
+### 1.6.1. Bullet List
 ```markdown
 - Element 1
 - Element 2
@@ -192,7 +192,7 @@ Notes
 
 <br/>
 
-### Ordered List
+### 1.6.2. Ordered List
 ```markdown
 1. Element 1
 2. Element 2
@@ -206,7 +206,7 @@ Notes
 
 <br/>
 
-### Task List
+### 1.6.3. Task List
 ```markdown
 - [x] Completed
 - [ ] Not completed
@@ -217,7 +217,7 @@ Notes
 <br/>
 <br/>
 
-## Quote Text
+## 1.7. Quote Text
 ```markdown
 > This is a quote.
 ```
@@ -227,7 +227,7 @@ Notes
 <br/>
 <br/>
 
-## Collapsed Section
+## 1.8. Collapsed Section
 ```markdown
 <details>
 <summary>Collapsed section</summary>
@@ -246,7 +246,7 @@ Text in collapsed section.
 <br/>
 <br/>
 
-## Alerts
+## 1.9. Alerts
 ```markdown
 > [!NOTE]
 > Useful information that users should know, even when skimming content.
@@ -281,7 +281,7 @@ Text in collapsed section.
 <br/>
 <br/>
 
-## Hiding Content
+## 1.10. Hiding Content
 ```markdown
 This content will appear in the rendered Markdown
 <!-- This content will not appear in the rendered Markdown -->
@@ -623,8 +623,8 @@ Or leave title empty and use the [reference link text] itself.
 <br/>
 <br/>
 
-## MATHEMATICAL EXPRESSION
-### Inline Mathematical Expression
+# MATHEMATICAL EXPRESSION
+## Inline Mathematical Expression
 ```markdown
 $\sqrt{3x-1}+(1+x)^2$
 ```
@@ -632,7 +632,7 @@ $\sqrt{3x-1}+(1+x)^2$
 
 <br/>
 
-### Mathematical Expression Block
+## Mathematical Expression Block
 ```markdown
 $$
 \sqrt{3x-1}+(1+x)^2
@@ -653,8 +653,8 @@ $$
 
 <br/>
 
-### Mathematical Symbols
-#### Arithmetic
+## Mathematical Symbols
+### Arithmetic
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Addition                                   | $x+y$                                                           |  `$x+y$`  |
@@ -667,7 +667,7 @@ $$
 |Squared <br/> Cubed <br/> nth-Power        | $x^2$ <br/> $x^3$ <br/> $x^n$                                   |  `$x^2$` <br/> `$x^3$` <br/> `$x^n$`  |
 |Square Root <br/> Cube Root <br/> nth-Root | $\sqrt{x}$ <br/> $\sqrt[3]{x}$ <br/> $\sqrt[n]{x}$              |  `$\sqrt{x}$` <br/> `$\sqrt[3]{x}$` <br/> `$\sqrt[n]{x}`  |
 
-#### Equality
+### Equality
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Equals                    | $x=y$         |  `$x=y$`  |
@@ -676,14 +676,14 @@ $$
 |Proportional To           | $x \propto y$ |  `$x \propto y$`  |
 |Approximately Equal To	   | $x \approx y$ |  `$x \approx y$`  |
 
-#### Comparison
+### Comparison
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Less Than <br/> Greater Than                   | $a<b$ <br/> $a>b$           |  `$a<b$` <br/> `$a>b$`  |
 |Less Than or Equal <br/> Greater Than or Equal | $a \leq b$ <br/> $a \geq b$ |  `$a \leq b$` <br/> `$a \geq b$`  |
 |Much Smaller Than <br/> Much Larger Than       | $a \ll b$ <br/> $a \gg b$   |  `$a \ll b$` <br/> `$a \gg b$`  |
 
-#### Algebra
+### Algebra
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Factorial | $x!$ |  `$x!$`  |
@@ -696,7 +696,7 @@ $$
 |Series Product | $\displaystyle\prod_{x=0}^n x$ |  `$\displaystyle\prod_{x=0}^n x$`  |
 |Brackets <br/> Parentheses | $[\ldots]$ <br/> $(\ldots)$ |  `$[...]$` <br/> `$(...)$`  |
 
-#### Angle
+### Angle
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Angle | $\angle$ |  `$\angle$`  |
@@ -707,7 +707,7 @@ $$A=\begin{bmatrix}1&2&3\cr4&5&6\end{bmatrix}$$
 
 <br/>
 
-### Greek Alphabet
+## Greek Alphabet
 |Letter |Lower |Markdown Format |Upper |Markdown Format |
 |:---|:---:|:---:|:---:|:---:|
 |Alpha |$\alpha$ |  `$\alpha$`  |$\text{A}$ |  `$\Alpha$`  |
