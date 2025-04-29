@@ -762,7 +762,7 @@ $$
 <br/>
 
 ## 6.10. Linear Algebra: Vectors
-### Row Vector
+#### Row Vector
 ```markdown
 $$
 v = \begin{pmatrix}
@@ -776,7 +776,7 @@ v = \begin{pmatrix}
 \end{pmatrix}
 $$
 
-### Column Vector
+#### Column Vector
 |Notation |Example |Markdown Format |
 |:---|:---:|:---:|
 |Vectors	     | $\mathbf{v}$ <br/> $\overline{v}$ <br/> $\vec{v}$                       |  `$\mathbf{v}$` <br/> `$\overline{v}$` <br/> `$\vec{v}$`  |
@@ -816,7 +816,7 @@ $$
 |Determinant         | $\|A\|$       |  `$\|A\|$`  |
 |Norm                | $\|\|A\|\|$   |  `$\|\|A\|\|$`  |
 
-### 6.11.1. Matrix
+#### Matrix
 ```markdown
 $$
 A = \begin{bmatrix}
@@ -862,7 +862,7 @@ $$
 $$
 
 ### 6.12.3. Differentiation	
-#### 6.12.3.1. First Derivative
+#### First Derivative
 ```markdown
 $$
 \frac{df}{dx}
@@ -872,7 +872,7 @@ $$
 \frac{df}{dx}
 $$
 
-#### 6.12.3.2. Partial Derivative
+#### Partial Derivative
 ```markdown
 $$
 \frac{\partial f}{\partial x}
@@ -882,7 +882,7 @@ $$
 \frac{\partial f}{\partial x}
 $$
 
-#### 6.12.3.3. First and Second Derivative of Function
+#### First and Second Derivative of Function
 ```markdown
 $$
 f\rq
@@ -893,7 +893,7 @@ $$
 f' \ \ \ \ f''
 $$
 
-#### 6.12.3.4. First and Second Derivative With Respect To Time
+#### First and Second Derivative With Respect To Time
 ```markdown
 $$
 \dot f
