@@ -382,7 +382,10 @@ int main()
 ```
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/abdullahdangac/)  
 
-[Some Markdown Badges](https://ileriayo.github.io/markdown-badges/)
+<br/>
+
+> [!TIP]
+> You can find [some Markdown badges](https://ileriayo.github.io/markdown-badges/) here.
 
 <br/>
 
@@ -441,7 +444,7 @@ Or leave title empty and use the [reference link text] itself.
 [CMake]: https://cmake.org/
 [cppreference.com]: https://en.cppreference.com  
 ```
-[CMake] is an open source, cross-platform family of tools designed to build, test, and package software.  
+[CMake] is an open source tool designed to build, test and package software.  
 [C++ Reference][cppreference.com] is a reference guide for C++ programming language.
   
 [CMake]: https://cmake.org/
@@ -643,3 +646,49 @@ $$
 ```math
 \sqrt{3x-1}+(1+x)^2
 ```
+
+<br/>
+
+### Mathematical Symbols
+#### Arithmetic
+|Notation |Example |Markdown Format |
+|:---|:---:|:---:|
+|Addition                                   | $x+y$                                                           |  `$x+y$`  |
+|Subtraction                                | $x-y$                                                           |  `$x-y`  |
+|Multiplication                             | $x \times y$ <br/> $x \ast y$ <br/> $x \cdot y$                 |  `$x \times y$` <br/> `$x \ast y$` <br/> `$x \cdot y$`  |
+|Division                                   | $x \colon y$ <br/> $x / y$ <br/> $x \div y$ <br/> $\frac{x}{y}$ |  `$x \colon y$` <br/> `$x / y$` <br/> `$x \div y$` <br/> `$\frac{x}{y}$`  |
+|Remainder / Modulo                         | $x \mod y$                                                      |  `$x \mod y$`  |
+|Negative Value	                            | $-x$                                                            |  `$-x$`  |
+|Plus or Minus <br/> Minus or Plus          | $\pm x$ <br/> $\mp x$                                           |  `$\pm x$` <br/> `$\mp x$`  |
+|Squared <br/> Cubed <br/> nth-Power        | $x^2$ <br/> $x^3$ <br/> $x^n$                                   |  `$x^2$` <br/> `$x^3$` <br/> `$x^n$`  |
+|Square Root <br/> Cube Root <br/> nth-Root | $\sqrt{x}$ <br/> $\sqrt[3]{x}$ <br/> $\sqrt[n]{x}$              |  `$\sqrt{x}$` <br/> `$\sqrt[3]{x}$` <br/> `$\sqrt[n]{x}`  |
+
+<br/>
+
+### Greek Alphabet
+|Letter |Lower |Markdown Format |Upper |Markdown Format |
+|:---|:---:|:---:|:---:|:---:|
+|Alpha |$\alpha$ |  `$\alpha$`  |$\text{A}$ |  `$\Alpha$`  |
+|Beta |$\beta$ |  `$\beta$`  |$\text{B}$ |  `$\Beta$`  |
+|Gamma |$\gamma$ |  `$\gamma$`  |$\Gamma$ |  `$\Gamma$`  |
+|Delta |$\delta$ |  `$\delta$`  |$\Delta$ |  `$\Delta$`  |
+|Epsilon |$\epsilon$ |  `$\epsilon$`  |$\text{E}$ |  `$\Epsilon$`  |
+|Zeta |$\zeta$ | `$\zeta$`  |$\text{Z}$ |  `$\Zeta$`  |
+|Eta |$\eta$ |  `$\eta$`  |$\text{H}$ |  `$\Eta$`  |
+|Theta |$\theta$ |  `$\theta$`  |$\Theta$ |  `$\Theta$`  |
+|Iota |$\iota$ |  `$\iota$`  |$\text{I}$ |  `$\Iota$`  |
+|Kappa |$\kappa$ |  `$\kappa$`  |$\text{K}$ |  `$\Kappa$`  |
+|Lambda |$\lambda$ |  `$\lambda$`  |$\Lambda$ |  `$\Lambda$`  |
+|Mu |$\mu$ |  `$\mu$`  |$\text{M}$ |  `$\Mu$`  |
+|Nu |$\nu$ |  `$\nu$`  |$\text{N}$ |  `$\Nu$`  |
+|Xi |$\xi$ |  `$\xi$`  |$\Xi$ |  `$\Xi$`  |
+|Omicron |$\omicron$ |  `$\omicron$`  |$\text{O}$ |  `$\Omicron$`  |
+|Pi |$\pi$ |  `$\pi$`  |$\Pi$ |  `$\Pi$`  |
+|Rho |$\rho$ |  `$\rho$`  |$\text{P}$ |  `$\Rho$`  |
+|Sigma |$\sigma$ |  `$\sigma$`  |$\Sigma$ |  `$\Sigma$`  |
+|Tau |$\tau$ |  `$\tau$`  |$\text{T}$ |  `$\Tau$`  |
+|Upsilon |$\upsilon$ |  `$\upsilon$`  |$\Upsilon$ |  `$\Upsilon$`  |
+|Phi |$\phi$ |  `$\phi$`  |$\Phi$ |  `$\Phi$`  |
+|Chi |$\chi$ |  `$\chi$`  |$\text{X}$ |  `$\Chi$`  |
+|Psi |$\psi$ |  `$\psi$`  |$\Psi$ |  `$\Psi$`  |
+|Omega |$\omega$ |  `$\omega$`  |$\Omega$ |  `$\Omega$`  |
